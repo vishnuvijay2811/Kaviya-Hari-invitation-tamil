@@ -496,17 +496,17 @@ footer p{font-family:'Tiro Tamil',serif;font-weight:400;color:rgba(255,255,255,0
       <div class="pbox reveal-r">
         <p class="pbox-role">மணமகனின் பெற்றோர்</p>
         <div class="pbox-names">
-          திரு. க. வெங்கடேசன்<br>
+          திரு. கோ. வெங்கடேசன்<br>
           <span class="pamp">&amp;</span><br>
-          திருமதி. வ. ராஜதி
+          திருமதி. வெ. ராஜாத்தி
         </div>
       </div>
       <div class="pbox reveal-l">
         <p class="pbox-role">மணமகளின் பெற்றோர்</p>
         <div class="pbox-names">
-          திரு. ர. சுரேஷ் குமார்<br>
+          திரு. இரா. சுரேஷ் குமார்<br>
           <span class="pamp">&amp;</span><br>
-          திருமதி. ச. பேபி
+          திருமதி. சு. பேபி
         </div>
       </div>
     </div>
@@ -539,10 +539,155 @@ footer p{font-family:'Tiro Tamil',serif;font-weight:400;color:rgba(255,255,255,0
           <iframe src="https://maps.google.com/maps?q=Kalaignar+Arangam+Thiruvarur&output=embed&z=15&hl=ta"
             allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="vbtns">
-          <a class="vbtn vbtn-solid" href="https://maps.app.goo.gl/KMw6Bq4bvkRDessg8" target="_blank" rel="noopener">&#128205; Google Maps-இல் திற</a>
-          <a class="vbtn vbtn-out" href="tel:9489077099">&#128222; 9489077099</a>
-        </div>
+        <!-- CONTACT SECTION -->
+
+<div class="contact-label">
+   For Contact:
+</div>
+
+<div class="mini-contact-wrap">
+
+  <a href="tel:9489077099" class="mini-contact-card">
+    <div class="mini-name">HARI</div>
+    <div class="mini-number">📞 8220899248</div>
+  </a>
+
+  <a href="tel:9876543210" class="mini-contact-card">
+    <div class="mini-name">VISHNU</div>
+    <div class="mini-number">📞 9489077099</div>
+  </a>
+
+</div>
+
+<style>
+
+.contact-label{
+  font-family:'Tiro Tamil',serif;
+  font-size:1.1rem;
+  color:#4a2008;
+  margin:18px 0 14px;
+  letter-spacing:0.04em;
+}
+
+.mini-contact-wrap{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+  margin-top:8px;
+}
+
+.mini-contact-card{
+  flex:1;
+  min-width:180px;
+
+  text-decoration:none;
+
+  background:linear-gradient(145deg,#fffdf8,#f8eddc);
+
+  border:1px solid rgba(201,146,58,0.18);
+
+  border-radius:18px;
+
+  padding:16px 18px;
+
+  box-shadow:
+  0 8px 22px rgba(90,40,10,0.06);
+
+  transition:0.35s ease;
+}
+
+.mini-contact-card:hover{
+  transform:translateY(-4px);
+
+  box-shadow:
+  0 12px 28px rgba(90,40,10,0.12);
+}
+
+.mini-name{
+  font-family:'Tiro Tamil',serif;
+  font-size:1.1rem;
+  color:#4a2008;
+  margin-bottom:8px;
+}
+
+.mini-number{
+  font-family:'Cinzel',serif;
+  font-size:0.78rem;
+  letter-spacing:0.05em;
+  color:#c9923a;
+}
+
+@media(max-width:700px){
+
+  .mini-contact-wrap{
+    flex-direction:column;
+  }
+
+}
+
+</style>
+
+<style>
+.phone-buttons{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  margin-top:18px;
+}
+
+.pop-btn{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:100%;
+  padding:14px 18px;
+  border-radius:16px;
+  background:linear-gradient(135deg,#fff8ef,#f7e4c4);
+  border:1px solid rgba(201,146,58,0.25);
+  box-shadow:0 6px 18px rgba(90,40,10,0.08);
+  animation:softPop 2.2s infinite;
+  text-decoration:none;
+}
+
+.pop-btn:hover{
+  transform:scale(1.03);
+  background:linear-gradient(135deg,#fff2dc,#f4d7a6);
+}
+
+.caller-name{
+  font-family:'Tiro Tamil',serif;
+  font-size:0.95rem;
+  color:#4a2008;
+}
+
+.caller-number{
+  font-family:'Cinzel',serif;
+  font-size:0.85rem;
+  letter-spacing:0.08em;
+  color:#c9923a;
+}
+
+@keyframes softPop{
+  0%{
+    transform:scale(1);
+  }
+  50%{
+    transform:scale(1.04);
+  }
+  100%{
+    transform:scale(1);
+  }
+}
+
+@media(max-width:700px){
+  .pop-btn{
+    flex-direction:column;
+    gap:6px;
+    text-align:center;
+  }
+}
+</style>
+        
       </div>
     </div>
   </section>
